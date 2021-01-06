@@ -23,7 +23,7 @@ module.exports = {
             .setColor(color)
             .setTitle('Ping Pong')
             .addFields(
-                { name: 'Latency: ', value: `${latency}ms`, inline: false }
+                { name: 'Latency: ', value: `${latency}mds`, inline: false }
             )
             .setTimestamp()
 
