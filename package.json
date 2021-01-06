@@ -4,13 +4,23 @@
   "description": "A small discord bot to get news anywhere",
   "main": "src/bot.js",
   "scripts": {
-    "test": "src/bot.js"
+    "start": "node ."
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "discord.js": "^12.5.1",
     "dotenv": "^8.2.0"
-  }
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/hello-sqlite"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "newspaper"
+  ]
 }

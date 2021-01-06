@@ -4,7 +4,7 @@ module.exports = {
     name: "ping",
     description: "Ping! Pong!",
     args: false,
-    cooldown: 10,
+    cooldown: 5,
     aliases: ["pong"],
     usage: "[ip]",
     execute(message, args) {

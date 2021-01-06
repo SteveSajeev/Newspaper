@@ -2,7 +2,7 @@ module.exports = {
     name: "news",
     description: "Get to know whats happening around",
     args: true,
-    cooldown: 10,
+    cooldown: 40,
     aliases: ['ns'],
     usage: "<national|international>",
     execute(message, args) {
