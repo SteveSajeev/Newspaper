@@ -1,6 +1,6 @@
 {
-  "name": "discord-bot",
-  "version": "1.0.0",
+  "name": "newspaper",
+  "version": "1.0.1",
   "description": "A small discord bot to get news anywhere",
   "main": "src/bot.js",
   "scripts": {
