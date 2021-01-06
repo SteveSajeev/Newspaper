@@ -1,7 +1,7 @@
 {
     "name": "newspaper",
     "description": "A bot to make sure your up to date with the world",
-    "version": "1.0.1",
+    "version": "1.0.0",
     "main": "src/bot.js",
     "scripts": {
         "start": "node src/bot.js"
@@ -9,7 +9,7 @@
     "author": "Steve Sajeev",
     "license": "ISC",
     "dependencies": {
-        "discord.js": "11.1.0",
+        "discord.js": "^12.5.1",
         "dotenv": "^8.2.0"
     }
 }
