@@ -1,26 +1,16 @@
 {
-  "name": "newspaper",
-  "version": "1.0.1",
-  "description": "A small discord bot to get news anywhere",
-  "main": "src/bot.js",
-  "scripts": {
-    "start": "node ."
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "discord.js": "^12.5.1",
-    "dotenv": "^8.2.0"
-  },
-  "engines": {
-    "node": "12.x"
-  },
-  "repository": {
-    "url": "https://glitch.com/edit/#!/hello-sqlite"
-  },
-  "keywords": [
-    "discord",
-    "bot",
-    "newspaper"
-  ]
+    "name": "newspaper",
+    "description": "A bot to make sure your up to date with the world",
+    "version": "1.0.1",
+    "main": "src/bot.js",
+    "scripts": {
+        "start": "node src/bot.js"
+    },
+    "author": "Steve Sajeev",
+    "license": "ISC",
+    "dependencies": {
+        "discord.js": "11.1.0",
+        "dotenv": "^8.2.0",
+        "request": "2.81.0"
+    }
 }
